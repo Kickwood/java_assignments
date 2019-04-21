@@ -26,7 +26,7 @@ public class Student {
     }
 
     /**
-     * Initialize the Student class and set the name.
+     * Initialize the Student class.
      * 
      * @param name the name of the student
      */
