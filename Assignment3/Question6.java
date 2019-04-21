@@ -59,8 +59,9 @@ public class Question6 {
 
         Scanner in = new Scanner(System.in);
 
-        String units = String.join(", ", converter.units());
         System.out.println("Convert between units.");
+        
+        String units = String.join(", ", converter.units());
         System.out.println("Available units: [" + units + "]");
 
         System.out.print("Convert from? ");
