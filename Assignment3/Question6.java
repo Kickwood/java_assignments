@@ -4,7 +4,6 @@ import java.util.Set;
 
 /**
  * @author Christopher
- *
  */
 public class Question6 {
 
