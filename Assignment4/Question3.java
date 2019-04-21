@@ -27,7 +27,7 @@ public class Question3 {
     /**
      * Generate a random integer between 1 and 6.
      * 
-     * @return a random int between 1 and 6
+     * @return random int between 1 and 6
      */
     private int random() {
         return (int) (Math.random() * 6 + 1);
@@ -46,7 +46,7 @@ public class Question3 {
     /**
      * Return the result before the last result.
      * 
-     * @return the element just before the last one in the list
+     * @return the second last element in the list
      */
     public int previous() {
         return get(size() - 2);
@@ -64,7 +64,7 @@ public class Question3 {
     /**
      * Return the array size.
      * 
-     * @return an int specifying the size of the list
+     * @return the size of the list
      */
     public int size() {
         return results.size();
@@ -96,17 +96,17 @@ public class Question3 {
     class Winner {		
 
         /**
-         * The collection of Players.
+         * The collection of players.
          */
         private List<Player> players;
 
         /**
-         * The winning Player.
+         * The winning player.
          */
         private Player winner;
 
         /**
-         * Initialize the Winner class.
+         * Initialize the winner class.
          */
         public Winner() {
             players = new ArrayList<>();
@@ -119,9 +119,9 @@ public class Question3 {
         }
 
         /**
-         * Return the object of the winning Player.
+         * Return the object of the winning player.
          * 
-         * @return the instance of the Player that won
+         * @return the instance of the player that won
          */
         public Player getWinner() {
             for (Player player : players) {
@@ -154,26 +154,26 @@ public class Question3 {
         private class Player {
 
             /**
-             * The Player's name.
+             * The player's name.
              */
             public String name;
 
             /**
-             * Whether the Player wins with an even amount of rolls.
+             * Whether the player wins with an even amount of rolls.
              */
             public boolean evenRolls;
 
             /**
-             * Whether the Player wins with the last numbers being even.
+             * Whether the player wins with the last numbers being even.
              */
             public boolean evenResult;
 
             /**
-             * Initialize the Player class.
+             * Initialize the player class.
              * 
-             * @param name the name of the Player
-             * @param evenRolls whether the Player wins with an even amount of rolls
-             * @param evenResult whether the Player wins with an even result
+             * @param name the name of the player
+             * @param evenRolls whether the player wins with an even amount of rolls
+             * @param evenResult whether the player wins with the last numbers being even
              */
             public Player(String name, boolean evenRolls, boolean evenResult) {
                 this.name = name;
