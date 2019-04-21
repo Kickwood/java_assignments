@@ -44,7 +44,7 @@ public class Question3 {
     }
 
     /**
-     * Return the result before the last result.
+     * Return the result one position before the final result.
      * 
      * @return the second last element in the list
      */
