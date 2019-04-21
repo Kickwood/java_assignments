@@ -73,7 +73,7 @@ public class Question3 {
     /**
      * Get the results.
      * 
-     * @return a List containing the results
+     * @return a list containing the results
      */
     public List<Integer> results() {
         return results;
