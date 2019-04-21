@@ -88,6 +88,7 @@ public class Question5 {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 List<Integer> neighbours = neighbours(matrix, i, j);
+                
                 sums[i][j] = neighbours.stream().mapToInt(Integer::intValue).sum();
             }
         }
